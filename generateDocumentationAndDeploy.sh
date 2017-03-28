@@ -77,7 +77,7 @@ echo 'Generating Doxygen code documentation...'
 cd $SOURCES
 # Redirect both stderr and stdout to the log file AND the console.
 doxygen doxygen.config 2>&1 | tee doxygen.log
-cp -r html/ code_docs/$GH_REPO_NAME
+cp -r html/* code_docs/$GH_REPO_NAME
 echo 'All files: '
 pwd
 ls
