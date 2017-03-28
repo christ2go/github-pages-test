@@ -45,9 +45,10 @@ ls
 # Create a clean working directory for this script.
 mkdir code_docs
 cd code_docs
-
+echo 'Cloning from github'
 # Get the current gh-pages branch
 git clone -b gh-pages https://git@$GH_REPO_REF
+echo 'Cloned sucessfully'
 cd $GH_REPO_NAME
 
 ##### Configure git.
@@ -73,11 +74,16 @@ echo "" > .nojekyll
 ################################################################################
 ##### Generate the Doxygen code documentation and log the output.          #####
 echo 'Generating Doxygen code documentation...'
-cd $SOURCES
+cd ..
 # Redirect both stderr and stdout to the log file AND the console.
-doxygen $DOXYFILE 2>&1 | tee doxygen.log
+doxygen doxygen.config 2>&1 | tee doxygen.log
 cp -r html/ code_docs/
+echo 'All files: '
+pwd
+ls
+echo 'Getting back into code docs'
 cd code_docs
+ls
 ################################################################################
 ##### Upload the documentation to the gh-pages branch of the repository.   #####
 # Only upload if Doxygen successfully created the documentation.
