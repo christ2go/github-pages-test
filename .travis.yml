@@ -10,7 +10,7 @@ branches:
 env:
   global:
     - GH_REPO_NAME: github-pages-test
-    - DOXYFILE: $TRAVIS_BUILD_DIR/
+    - DOXYFILE: $TRAVIS_BUILD_DIR/doxygen.config
     - GH_REPO_REF: github.com/christ2go/github-pages-test.git
 
 # Install dependencies
