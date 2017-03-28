@@ -3,9 +3,8 @@ sudo: false
 language: cpp
 # Blacklist
 branches:
-  except:
-    - gh-pages
-
+  only:
+    - master
 # Environment variables
 env:
   global:
