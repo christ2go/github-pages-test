@@ -74,15 +74,15 @@ echo "" > .nojekyll
 ################################################################################
 ##### Generate the Doxygen code documentation and log the output.          #####
 echo 'Generating Doxygen code documentation...'
-cd ..
+cd $SOURCES
 # Redirect both stderr and stdout to the log file AND the console.
 doxygen doxygen.config 2>&1 | tee doxygen.log
-cp -r html/ code_docs/
+cp -r html/ code_docs/$GH_REPO_NAME
 echo 'All files: '
 pwd
 ls
 echo 'Getting back into code docs'
-cd code_docs
+cd code_docs/$GH_REPO_NAME
 ls
 ################################################################################
 ##### Upload the documentation to the gh-pages branch of the repository.   #####
