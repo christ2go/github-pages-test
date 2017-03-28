@@ -11,7 +11,7 @@ env:
   global:
     - GH_REPO_NAME: github-pages-test
     - DOXYFILE: $TRAVIS_BUILD_DIR/
-    - GH_REPO_REF: github.com/<your_name>/<your_repo>.git
+    - GH_REPO_REF: github.com/christ2go/github-pages-test.git
 
 # Install dependencies
 addons:
@@ -22,6 +22,7 @@ addons:
       - doxygen-latex
       - doxygen-gui
       - graphviz
+      - g++
 
 # Build your code e.g. by calling make
 script:
