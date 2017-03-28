@@ -38,7 +38,10 @@ __AUTHOR__="Jeroen de Bruijn"
 echo 'Setting up the script...'
 # Exit with nonzero exit code if anything fails
 set -e
-
+echo 'Current directory is '
+pwd
+echo 'Listing: '
+ls
 # Create a clean working directory for this script.
 mkdir code_docs
 cd code_docs
