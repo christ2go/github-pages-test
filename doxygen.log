@@ -1,4 +1,37 @@
-error: file `/home/travis/build/christ2go/github-pages-test/' not found
+warning: ignoring unsupported tag `ALLOW_UNICODE_NAMES    =' at line 79, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `MARKDOWN_SUPPORT       =' at line 304, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `TOC_INCLUDE_HEADINGS   =' at line 313, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `AUTOLINK_SUPPORT       =' at line 321, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `GROUP_NESTED_COMPOUNDS =' at line 370, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `EXTRACT_PACKAGE        =' at line 450, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `HIDE_COMPOUND_REFERENCE=' at line 541, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `SHOW_GROUPED_MEMB_INC  =' at line 554, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `WARN_AS_ERROR          =' at line 765, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `USE_MDFILE_AS_MAINPAGE =' at line 985, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `SOURCE_TOOLTIPS        =' at line 1041, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `HTML_EXTRA_STYLESHEET  =' at line 1176, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `HTML_INDEX_NUM_ENTRIES =' at line 1246, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `MATHJAX_FORMAT         =' at line 1527, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `MATHJAX_CODEFILE       =' at line 1555, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `EXTERNAL_SEARCH        =' at line 1604, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `SEARCHENGINE_URL       =' at line 1615, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `SEARCHDATA_FILE        =' at line 1623, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `EXTERNAL_SEARCH_ID     =' at line 1631, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `EXTRA_SEARCH_MAPPINGS  =' at line 1641, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `LATEX_EXTRA_STYLESHEET =' at line 1743, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `LATEX_EXTRA_FILES      =' at line 1751, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `LATEX_TIMESTAMP        =' at line 1810, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `RTF_SOURCE_CODE        =' at line 1876, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `MAN_SUBDIR             =' at line 1911, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `GENERATE_DOCBOOK       =' at line 1957, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `DOCBOOK_OUTPUT         =' at line 1965, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `DOCBOOK_PROGRAMLISTING =' at line 1974, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `EXTERNAL_PAGES         =' at line 2148, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `DIA_PATH               =' at line 2183, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `UML_LIMIT_NUM_FIELDS   =' at line 2277, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `DIAFILE_DIRS           =' at line 2395, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `PLANTUML_JAR_PATH      =' at line 2403, file /home/travis/build/christ2go/github-pages-test/doxygen.config
+warning: ignoring unsupported tag `PLANTUML_INCLUDE_PATH  =' at line 2408, file /home/travis/build/christ2go/github-pages-test/doxygen.config
 Searching for include files...
 Searching for example files...
 Searching for images...
