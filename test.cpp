@@ -59,7 +59,9 @@ class Javadoc_Test
        */
        int (*handler)(int a,int b);
 };
-
+/**
+ *  Main method.
+ */
 int main(void)
 {
   return -44;
